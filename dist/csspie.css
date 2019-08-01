@@ -1,0 +1,4116 @@
+@keyframes pie-chart-spin-init {
+  to {
+    transform: rotate(0.5turn); } }
+@keyframes pie-chart-spin-change {
+  to {
+    background-color: #B4A078;
+    transform: rotate(0turn); } }
+.pie {
+  position: relative;
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #E8E2D6;
+  background-image: linear-gradient(to right, transparent 50%, #B4A078 50%);
+  overflow: hidden; }
+  .pie.pie-size-small {
+    width: 64px;
+    height: 64px; }
+@keyframes pie-chart-spin-0 {
+  to {
+    transform: rotate( 0turn); } }
+    .pie.pie-size-small.pie-0:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-0 1s linear forwards; }
+@keyframes pie-chart-spin-1 {
+  to {
+    transform: rotate( 0.01turn); } }
+    .pie.pie-size-small.pie-1:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-1 1s linear forwards; }
+@keyframes pie-chart-spin-2 {
+  to {
+    transform: rotate( 0.02turn); } }
+    .pie.pie-size-small.pie-2:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-2 1s linear forwards; }
+@keyframes pie-chart-spin-3 {
+  to {
+    transform: rotate( 0.03turn); } }
+    .pie.pie-size-small.pie-3:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-3 1s linear forwards; }
+@keyframes pie-chart-spin-4 {
+  to {
+    transform: rotate( 0.04turn); } }
+    .pie.pie-size-small.pie-4:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-4 1s linear forwards; }
+@keyframes pie-chart-spin-5 {
+  to {
+    transform: rotate( 0.05turn); } }
+    .pie.pie-size-small.pie-5:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-5 1s linear forwards; }
+@keyframes pie-chart-spin-6 {
+  to {
+    transform: rotate( 0.06turn); } }
+    .pie.pie-size-small.pie-6:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-6 1s linear forwards; }
+@keyframes pie-chart-spin-7 {
+  to {
+    transform: rotate( 0.07turn); } }
+    .pie.pie-size-small.pie-7:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-7 1s linear forwards; }
+@keyframes pie-chart-spin-8 {
+  to {
+    transform: rotate( 0.08turn); } }
+    .pie.pie-size-small.pie-8:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-8 1s linear forwards; }
+@keyframes pie-chart-spin-9 {
+  to {
+    transform: rotate( 0.09turn); } }
+    .pie.pie-size-small.pie-9:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-9 1s linear forwards; }
+@keyframes pie-chart-spin-10 {
+  to {
+    transform: rotate( 0.1turn); } }
+    .pie.pie-size-small.pie-10:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-10 1s linear forwards; }
+@keyframes pie-chart-spin-11 {
+  to {
+    transform: rotate( 0.11turn); } }
+    .pie.pie-size-small.pie-11:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-11 1s linear forwards; }
+@keyframes pie-chart-spin-12 {
+  to {
+    transform: rotate( 0.12turn); } }
+    .pie.pie-size-small.pie-12:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-12 1s linear forwards; }
+@keyframes pie-chart-spin-13 {
+  to {
+    transform: rotate( 0.13turn); } }
+    .pie.pie-size-small.pie-13:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-13 1s linear forwards; }
+@keyframes pie-chart-spin-14 {
+  to {
+    transform: rotate( 0.14turn); } }
+    .pie.pie-size-small.pie-14:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-14 1s linear forwards; }
+@keyframes pie-chart-spin-15 {
+  to {
+    transform: rotate( 0.15turn); } }
+    .pie.pie-size-small.pie-15:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-15 1s linear forwards; }
+@keyframes pie-chart-spin-16 {
+  to {
+    transform: rotate( 0.16turn); } }
+    .pie.pie-size-small.pie-16:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-16 1s linear forwards; }
+@keyframes pie-chart-spin-17 {
+  to {
+    transform: rotate( 0.17turn); } }
+    .pie.pie-size-small.pie-17:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-17 1s linear forwards; }
+@keyframes pie-chart-spin-18 {
+  to {
+    transform: rotate( 0.18turn); } }
+    .pie.pie-size-small.pie-18:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-18 1s linear forwards; }
+@keyframes pie-chart-spin-19 {
+  to {
+    transform: rotate( 0.19turn); } }
+    .pie.pie-size-small.pie-19:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-19 1s linear forwards; }
+@keyframes pie-chart-spin-20 {
+  to {
+    transform: rotate( 0.2turn); } }
+    .pie.pie-size-small.pie-20:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-20 1s linear forwards; }
+@keyframes pie-chart-spin-21 {
+  to {
+    transform: rotate( 0.21turn); } }
+    .pie.pie-size-small.pie-21:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-21 1s linear forwards; }
+@keyframes pie-chart-spin-22 {
+  to {
+    transform: rotate( 0.22turn); } }
+    .pie.pie-size-small.pie-22:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-22 1s linear forwards; }
+@keyframes pie-chart-spin-23 {
+  to {
+    transform: rotate( 0.23turn); } }
+    .pie.pie-size-small.pie-23:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-23 1s linear forwards; }
+@keyframes pie-chart-spin-24 {
+  to {
+    transform: rotate( 0.24turn); } }
+    .pie.pie-size-small.pie-24:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-24 1s linear forwards; }
+@keyframes pie-chart-spin-25 {
+  to {
+    transform: rotate( 0.25turn); } }
+    .pie.pie-size-small.pie-25:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-25 1s linear forwards; }
+@keyframes pie-chart-spin-26 {
+  to {
+    transform: rotate( 0.26turn); } }
+    .pie.pie-size-small.pie-26:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-26 1s linear forwards; }
+@keyframes pie-chart-spin-27 {
+  to {
+    transform: rotate( 0.27turn); } }
+    .pie.pie-size-small.pie-27:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-27 1s linear forwards; }
+@keyframes pie-chart-spin-28 {
+  to {
+    transform: rotate( 0.28turn); } }
+    .pie.pie-size-small.pie-28:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-28 1s linear forwards; }
+@keyframes pie-chart-spin-29 {
+  to {
+    transform: rotate( 0.29turn); } }
+    .pie.pie-size-small.pie-29:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-29 1s linear forwards; }
+@keyframes pie-chart-spin-30 {
+  to {
+    transform: rotate( 0.3turn); } }
+    .pie.pie-size-small.pie-30:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-30 1s linear forwards; }
+@keyframes pie-chart-spin-31 {
+  to {
+    transform: rotate( 0.31turn); } }
+    .pie.pie-size-small.pie-31:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-31 1s linear forwards; }
+@keyframes pie-chart-spin-32 {
+  to {
+    transform: rotate( 0.32turn); } }
+    .pie.pie-size-small.pie-32:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-32 1s linear forwards; }
+@keyframes pie-chart-spin-33 {
+  to {
+    transform: rotate( 0.33turn); } }
+    .pie.pie-size-small.pie-33:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-33 1s linear forwards; }
+@keyframes pie-chart-spin-34 {
+  to {
+    transform: rotate( 0.34turn); } }
+    .pie.pie-size-small.pie-34:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-34 1s linear forwards; }
+@keyframes pie-chart-spin-35 {
+  to {
+    transform: rotate( 0.35turn); } }
+    .pie.pie-size-small.pie-35:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-35 1s linear forwards; }
+@keyframes pie-chart-spin-36 {
+  to {
+    transform: rotate( 0.36turn); } }
+    .pie.pie-size-small.pie-36:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-36 1s linear forwards; }
+@keyframes pie-chart-spin-37 {
+  to {
+    transform: rotate( 0.37turn); } }
+    .pie.pie-size-small.pie-37:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-37 1s linear forwards; }
+@keyframes pie-chart-spin-38 {
+  to {
+    transform: rotate( 0.38turn); } }
+    .pie.pie-size-small.pie-38:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-38 1s linear forwards; }
+@keyframes pie-chart-spin-39 {
+  to {
+    transform: rotate( 0.39turn); } }
+    .pie.pie-size-small.pie-39:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-39 1s linear forwards; }
+@keyframes pie-chart-spin-40 {
+  to {
+    transform: rotate( 0.4turn); } }
+    .pie.pie-size-small.pie-40:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-40 1s linear forwards; }
+@keyframes pie-chart-spin-41 {
+  to {
+    transform: rotate( 0.41turn); } }
+    .pie.pie-size-small.pie-41:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-41 1s linear forwards; }
+@keyframes pie-chart-spin-42 {
+  to {
+    transform: rotate( 0.42turn); } }
+    .pie.pie-size-small.pie-42:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-42 1s linear forwards; }
+@keyframes pie-chart-spin-43 {
+  to {
+    transform: rotate( 0.43turn); } }
+    .pie.pie-size-small.pie-43:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-43 1s linear forwards; }
+@keyframes pie-chart-spin-44 {
+  to {
+    transform: rotate( 0.44turn); } }
+    .pie.pie-size-small.pie-44:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-44 1s linear forwards; }
+@keyframes pie-chart-spin-45 {
+  to {
+    transform: rotate( 0.45turn); } }
+    .pie.pie-size-small.pie-45:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-45 1s linear forwards; }
+@keyframes pie-chart-spin-46 {
+  to {
+    transform: rotate( 0.46turn); } }
+    .pie.pie-size-small.pie-46:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-46 1s linear forwards; }
+@keyframes pie-chart-spin-47 {
+  to {
+    transform: rotate( 0.47turn); } }
+    .pie.pie-size-small.pie-47:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-47 1s linear forwards; }
+@keyframes pie-chart-spin-48 {
+  to {
+    transform: rotate( 0.48turn); } }
+    .pie.pie-size-small.pie-48:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-48 1s linear forwards; }
+@keyframes pie-chart-spin-49 {
+  to {
+    transform: rotate( 0.49turn); } }
+    .pie.pie-size-small.pie-49:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-49 1s linear forwards; }
+@keyframes pie-chart-spin-50 {
+  to {
+    transform: rotate( 0.5turn); } }
+    .pie.pie-size-small.pie-50:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-50 1s linear forwards; }
+@keyframes pie-chart-spin-51 {
+  to {
+    transform: rotate( 0.01turn); } }
+    .pie.pie-size-small.pie-51:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.99s linear forwards, pie-chart-spin-change 0s linear 0.99s forwards, pie-chart-spin-51 0.01s linear 0.99s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-52 {
+  to {
+    transform: rotate( 0.02turn); } }
+    .pie.pie-size-small.pie-52:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.98s linear forwards, pie-chart-spin-change 0s linear 0.98s forwards, pie-chart-spin-52 0.02s linear 0.98s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-53 {
+  to {
+    transform: rotate( 0.03turn); } }
+    .pie.pie-size-small.pie-53:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.97s linear forwards, pie-chart-spin-change 0s linear 0.97s forwards, pie-chart-spin-53 0.03s linear 0.97s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-54 {
+  to {
+    transform: rotate( 0.04turn); } }
+    .pie.pie-size-small.pie-54:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.96s linear forwards, pie-chart-spin-change 0s linear 0.96s forwards, pie-chart-spin-54 0.04s linear 0.96s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-55 {
+  to {
+    transform: rotate( 0.05turn); } }
+    .pie.pie-size-small.pie-55:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.95s linear forwards, pie-chart-spin-change 0s linear 0.95s forwards, pie-chart-spin-55 0.05s linear 0.95s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-56 {
+  to {
+    transform: rotate( 0.06turn); } }
+    .pie.pie-size-small.pie-56:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.94s linear forwards, pie-chart-spin-change 0s linear 0.94s forwards, pie-chart-spin-56 0.06s linear 0.94s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-57 {
+  to {
+    transform: rotate( 0.07turn); } }
+    .pie.pie-size-small.pie-57:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.93s linear forwards, pie-chart-spin-change 0s linear 0.93s forwards, pie-chart-spin-57 0.07s linear 0.93s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-58 {
+  to {
+    transform: rotate( 0.08turn); } }
+    .pie.pie-size-small.pie-58:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.92s linear forwards, pie-chart-spin-change 0s linear 0.92s forwards, pie-chart-spin-58 0.08s linear 0.92s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-59 {
+  to {
+    transform: rotate( 0.09turn); } }
+    .pie.pie-size-small.pie-59:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.91s linear forwards, pie-chart-spin-change 0s linear 0.91s forwards, pie-chart-spin-59 0.09s linear 0.91s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-60 {
+  to {
+    transform: rotate( 0.1turn); } }
+    .pie.pie-size-small.pie-60:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.9s linear forwards, pie-chart-spin-change 0s linear 0.9s forwards, pie-chart-spin-60 0.1s linear 0.9s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-61 {
+  to {
+    transform: rotate( 0.11turn); } }
+    .pie.pie-size-small.pie-61:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.89s linear forwards, pie-chart-spin-change 0s linear 0.89s forwards, pie-chart-spin-61 0.11s linear 0.89s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-62 {
+  to {
+    transform: rotate( 0.12turn); } }
+    .pie.pie-size-small.pie-62:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.88s linear forwards, pie-chart-spin-change 0s linear 0.88s forwards, pie-chart-spin-62 0.12s linear 0.88s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-63 {
+  to {
+    transform: rotate( 0.13turn); } }
+    .pie.pie-size-small.pie-63:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.87s linear forwards, pie-chart-spin-change 0s linear 0.87s forwards, pie-chart-spin-63 0.13s linear 0.87s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-64 {
+  to {
+    transform: rotate( 0.14turn); } }
+    .pie.pie-size-small.pie-64:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.86s linear forwards, pie-chart-spin-change 0s linear 0.86s forwards, pie-chart-spin-64 0.14s linear 0.86s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-65 {
+  to {
+    transform: rotate( 0.15turn); } }
+    .pie.pie-size-small.pie-65:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.85s linear forwards, pie-chart-spin-change 0s linear 0.85s forwards, pie-chart-spin-65 0.15s linear 0.85s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-66 {
+  to {
+    transform: rotate( 0.16turn); } }
+    .pie.pie-size-small.pie-66:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.84s linear forwards, pie-chart-spin-change 0s linear 0.84s forwards, pie-chart-spin-66 0.16s linear 0.84s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-67 {
+  to {
+    transform: rotate( 0.17turn); } }
+    .pie.pie-size-small.pie-67:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.83s linear forwards, pie-chart-spin-change 0s linear 0.83s forwards, pie-chart-spin-67 0.17s linear 0.83s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-68 {
+  to {
+    transform: rotate( 0.18turn); } }
+    .pie.pie-size-small.pie-68:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.82s linear forwards, pie-chart-spin-change 0s linear 0.82s forwards, pie-chart-spin-68 0.18s linear 0.82s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-69 {
+  to {
+    transform: rotate( 0.19turn); } }
+    .pie.pie-size-small.pie-69:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.81s linear forwards, pie-chart-spin-change 0s linear 0.81s forwards, pie-chart-spin-69 0.19s linear 0.81s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-70 {
+  to {
+    transform: rotate( 0.2turn); } }
+    .pie.pie-size-small.pie-70:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.8s linear forwards, pie-chart-spin-change 0s linear 0.8s forwards, pie-chart-spin-70 0.2s linear 0.8s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-71 {
+  to {
+    transform: rotate( 0.21turn); } }
+    .pie.pie-size-small.pie-71:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.79s linear forwards, pie-chart-spin-change 0s linear 0.79s forwards, pie-chart-spin-71 0.21s linear 0.79s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-72 {
+  to {
+    transform: rotate( 0.22turn); } }
+    .pie.pie-size-small.pie-72:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.78s linear forwards, pie-chart-spin-change 0s linear 0.78s forwards, pie-chart-spin-72 0.22s linear 0.78s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-73 {
+  to {
+    transform: rotate( 0.23turn); } }
+    .pie.pie-size-small.pie-73:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.77s linear forwards, pie-chart-spin-change 0s linear 0.77s forwards, pie-chart-spin-73 0.23s linear 0.77s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-74 {
+  to {
+    transform: rotate( 0.24turn); } }
+    .pie.pie-size-small.pie-74:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.76s linear forwards, pie-chart-spin-change 0s linear 0.76s forwards, pie-chart-spin-74 0.24s linear 0.76s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-75 {
+  to {
+    transform: rotate( 0.25turn); } }
+    .pie.pie-size-small.pie-75:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.75s linear forwards, pie-chart-spin-change 0s linear 0.75s forwards, pie-chart-spin-75 0.25s linear 0.75s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-76 {
+  to {
+    transform: rotate( 0.26turn); } }
+    .pie.pie-size-small.pie-76:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.74s linear forwards, pie-chart-spin-change 0s linear 0.74s forwards, pie-chart-spin-76 0.26s linear 0.74s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-77 {
+  to {
+    transform: rotate( 0.27turn); } }
+    .pie.pie-size-small.pie-77:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.73s linear forwards, pie-chart-spin-change 0s linear 0.73s forwards, pie-chart-spin-77 0.27s linear 0.73s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-78 {
+  to {
+    transform: rotate( 0.28turn); } }
+    .pie.pie-size-small.pie-78:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.72s linear forwards, pie-chart-spin-change 0s linear 0.72s forwards, pie-chart-spin-78 0.28s linear 0.72s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-79 {
+  to {
+    transform: rotate( 0.29turn); } }
+    .pie.pie-size-small.pie-79:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.71s linear forwards, pie-chart-spin-change 0s linear 0.71s forwards, pie-chart-spin-79 0.29s linear 0.71s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-80 {
+  to {
+    transform: rotate( 0.3turn); } }
+    .pie.pie-size-small.pie-80:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.7s linear forwards, pie-chart-spin-change 0s linear 0.7s forwards, pie-chart-spin-80 0.3s linear 0.7s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-81 {
+  to {
+    transform: rotate( 0.31turn); } }
+    .pie.pie-size-small.pie-81:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.69s linear forwards, pie-chart-spin-change 0s linear 0.69s forwards, pie-chart-spin-81 0.31s linear 0.69s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-82 {
+  to {
+    transform: rotate( 0.32turn); } }
+    .pie.pie-size-small.pie-82:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.68s linear forwards, pie-chart-spin-change 0s linear 0.68s forwards, pie-chart-spin-82 0.32s linear 0.68s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-83 {
+  to {
+    transform: rotate( 0.33turn); } }
+    .pie.pie-size-small.pie-83:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.67s linear forwards, pie-chart-spin-change 0s linear 0.67s forwards, pie-chart-spin-83 0.33s linear 0.67s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-84 {
+  to {
+    transform: rotate( 0.34turn); } }
+    .pie.pie-size-small.pie-84:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.66s linear forwards, pie-chart-spin-change 0s linear 0.66s forwards, pie-chart-spin-84 0.34s linear 0.66s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-85 {
+  to {
+    transform: rotate( 0.35turn); } }
+    .pie.pie-size-small.pie-85:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.65s linear forwards, pie-chart-spin-change 0s linear 0.65s forwards, pie-chart-spin-85 0.35s linear 0.65s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-86 {
+  to {
+    transform: rotate( 0.36turn); } }
+    .pie.pie-size-small.pie-86:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.64s linear forwards, pie-chart-spin-change 0s linear 0.64s forwards, pie-chart-spin-86 0.36s linear 0.64s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-87 {
+  to {
+    transform: rotate( 0.37turn); } }
+    .pie.pie-size-small.pie-87:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.63s linear forwards, pie-chart-spin-change 0s linear 0.63s forwards, pie-chart-spin-87 0.37s linear 0.63s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-88 {
+  to {
+    transform: rotate( 0.38turn); } }
+    .pie.pie-size-small.pie-88:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.62s linear forwards, pie-chart-spin-change 0s linear 0.62s forwards, pie-chart-spin-88 0.38s linear 0.62s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-89 {
+  to {
+    transform: rotate( 0.39turn); } }
+    .pie.pie-size-small.pie-89:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.61s linear forwards, pie-chart-spin-change 0s linear 0.61s forwards, pie-chart-spin-89 0.39s linear 0.61s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-90 {
+  to {
+    transform: rotate( 0.4turn); } }
+    .pie.pie-size-small.pie-90:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.6s linear forwards, pie-chart-spin-change 0s linear 0.6s forwards, pie-chart-spin-90 0.4s linear 0.6s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-91 {
+  to {
+    transform: rotate( 0.41turn); } }
+    .pie.pie-size-small.pie-91:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.59s linear forwards, pie-chart-spin-change 0s linear 0.59s forwards, pie-chart-spin-91 0.41s linear 0.59s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-92 {
+  to {
+    transform: rotate( 0.42turn); } }
+    .pie.pie-size-small.pie-92:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.58s linear forwards, pie-chart-spin-change 0s linear 0.58s forwards, pie-chart-spin-92 0.42s linear 0.58s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-93 {
+  to {
+    transform: rotate( 0.43turn); } }
+    .pie.pie-size-small.pie-93:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.57s linear forwards, pie-chart-spin-change 0s linear 0.57s forwards, pie-chart-spin-93 0.43s linear 0.57s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-94 {
+  to {
+    transform: rotate( 0.44turn); } }
+    .pie.pie-size-small.pie-94:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.56s linear forwards, pie-chart-spin-change 0s linear 0.56s forwards, pie-chart-spin-94 0.44s linear 0.56s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-95 {
+  to {
+    transform: rotate( 0.45turn); } }
+    .pie.pie-size-small.pie-95:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.55s linear forwards, pie-chart-spin-change 0s linear 0.55s forwards, pie-chart-spin-95 0.45s linear 0.55s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-96 {
+  to {
+    transform: rotate( 0.46turn); } }
+    .pie.pie-size-small.pie-96:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.54s linear forwards, pie-chart-spin-change 0s linear 0.54s forwards, pie-chart-spin-96 0.46s linear 0.54s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-97 {
+  to {
+    transform: rotate( 0.47turn); } }
+    .pie.pie-size-small.pie-97:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.53s linear forwards, pie-chart-spin-change 0s linear 0.53s forwards, pie-chart-spin-97 0.47s linear 0.53s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-98 {
+  to {
+    transform: rotate( 0.48turn); } }
+    .pie.pie-size-small.pie-98:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.52s linear forwards, pie-chart-spin-change 0s linear 0.52s forwards, pie-chart-spin-98 0.48s linear 0.52s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-99 {
+  to {
+    transform: rotate( 0.49turn); } }
+    .pie.pie-size-small.pie-99:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.51s linear forwards, pie-chart-spin-change 0s linear 0.51s forwards, pie-chart-spin-99 0.49s linear 0.51s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-100 {
+  to {
+    transform: rotate( 0.5turn); } }
+    .pie.pie-size-small.pie-100:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 32px;
+      height: 64px;
+      transform-origin: 0 32px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.5s linear forwards, pie-chart-spin-change 0s linear 0.5s forwards, pie-chart-spin-100 0.5s linear 0.5s forwards;
+      transform: rotate(0turn); }
+  .pie.pie-size-middle {
+    width: 128px;
+    height: 128px; }
+@keyframes pie-chart-spin-0 {
+  to {
+    transform: rotate( 0turn); } }
+    .pie.pie-size-middle.pie-0:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-0 1s linear forwards; }
+@keyframes pie-chart-spin-1 {
+  to {
+    transform: rotate( 0.01turn); } }
+    .pie.pie-size-middle.pie-1:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-1 1s linear forwards; }
+@keyframes pie-chart-spin-2 {
+  to {
+    transform: rotate( 0.02turn); } }
+    .pie.pie-size-middle.pie-2:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-2 1s linear forwards; }
+@keyframes pie-chart-spin-3 {
+  to {
+    transform: rotate( 0.03turn); } }
+    .pie.pie-size-middle.pie-3:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-3 1s linear forwards; }
+@keyframes pie-chart-spin-4 {
+  to {
+    transform: rotate( 0.04turn); } }
+    .pie.pie-size-middle.pie-4:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-4 1s linear forwards; }
+@keyframes pie-chart-spin-5 {
+  to {
+    transform: rotate( 0.05turn); } }
+    .pie.pie-size-middle.pie-5:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-5 1s linear forwards; }
+@keyframes pie-chart-spin-6 {
+  to {
+    transform: rotate( 0.06turn); } }
+    .pie.pie-size-middle.pie-6:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-6 1s linear forwards; }
+@keyframes pie-chart-spin-7 {
+  to {
+    transform: rotate( 0.07turn); } }
+    .pie.pie-size-middle.pie-7:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-7 1s linear forwards; }
+@keyframes pie-chart-spin-8 {
+  to {
+    transform: rotate( 0.08turn); } }
+    .pie.pie-size-middle.pie-8:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-8 1s linear forwards; }
+@keyframes pie-chart-spin-9 {
+  to {
+    transform: rotate( 0.09turn); } }
+    .pie.pie-size-middle.pie-9:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-9 1s linear forwards; }
+@keyframes pie-chart-spin-10 {
+  to {
+    transform: rotate( 0.1turn); } }
+    .pie.pie-size-middle.pie-10:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-10 1s linear forwards; }
+@keyframes pie-chart-spin-11 {
+  to {
+    transform: rotate( 0.11turn); } }
+    .pie.pie-size-middle.pie-11:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-11 1s linear forwards; }
+@keyframes pie-chart-spin-12 {
+  to {
+    transform: rotate( 0.12turn); } }
+    .pie.pie-size-middle.pie-12:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-12 1s linear forwards; }
+@keyframes pie-chart-spin-13 {
+  to {
+    transform: rotate( 0.13turn); } }
+    .pie.pie-size-middle.pie-13:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-13 1s linear forwards; }
+@keyframes pie-chart-spin-14 {
+  to {
+    transform: rotate( 0.14turn); } }
+    .pie.pie-size-middle.pie-14:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-14 1s linear forwards; }
+@keyframes pie-chart-spin-15 {
+  to {
+    transform: rotate( 0.15turn); } }
+    .pie.pie-size-middle.pie-15:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-15 1s linear forwards; }
+@keyframes pie-chart-spin-16 {
+  to {
+    transform: rotate( 0.16turn); } }
+    .pie.pie-size-middle.pie-16:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-16 1s linear forwards; }
+@keyframes pie-chart-spin-17 {
+  to {
+    transform: rotate( 0.17turn); } }
+    .pie.pie-size-middle.pie-17:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-17 1s linear forwards; }
+@keyframes pie-chart-spin-18 {
+  to {
+    transform: rotate( 0.18turn); } }
+    .pie.pie-size-middle.pie-18:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-18 1s linear forwards; }
+@keyframes pie-chart-spin-19 {
+  to {
+    transform: rotate( 0.19turn); } }
+    .pie.pie-size-middle.pie-19:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-19 1s linear forwards; }
+@keyframes pie-chart-spin-20 {
+  to {
+    transform: rotate( 0.2turn); } }
+    .pie.pie-size-middle.pie-20:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-20 1s linear forwards; }
+@keyframes pie-chart-spin-21 {
+  to {
+    transform: rotate( 0.21turn); } }
+    .pie.pie-size-middle.pie-21:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-21 1s linear forwards; }
+@keyframes pie-chart-spin-22 {
+  to {
+    transform: rotate( 0.22turn); } }
+    .pie.pie-size-middle.pie-22:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-22 1s linear forwards; }
+@keyframes pie-chart-spin-23 {
+  to {
+    transform: rotate( 0.23turn); } }
+    .pie.pie-size-middle.pie-23:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-23 1s linear forwards; }
+@keyframes pie-chart-spin-24 {
+  to {
+    transform: rotate( 0.24turn); } }
+    .pie.pie-size-middle.pie-24:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-24 1s linear forwards; }
+@keyframes pie-chart-spin-25 {
+  to {
+    transform: rotate( 0.25turn); } }
+    .pie.pie-size-middle.pie-25:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-25 1s linear forwards; }
+@keyframes pie-chart-spin-26 {
+  to {
+    transform: rotate( 0.26turn); } }
+    .pie.pie-size-middle.pie-26:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-26 1s linear forwards; }
+@keyframes pie-chart-spin-27 {
+  to {
+    transform: rotate( 0.27turn); } }
+    .pie.pie-size-middle.pie-27:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-27 1s linear forwards; }
+@keyframes pie-chart-spin-28 {
+  to {
+    transform: rotate( 0.28turn); } }
+    .pie.pie-size-middle.pie-28:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-28 1s linear forwards; }
+@keyframes pie-chart-spin-29 {
+  to {
+    transform: rotate( 0.29turn); } }
+    .pie.pie-size-middle.pie-29:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-29 1s linear forwards; }
+@keyframes pie-chart-spin-30 {
+  to {
+    transform: rotate( 0.3turn); } }
+    .pie.pie-size-middle.pie-30:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-30 1s linear forwards; }
+@keyframes pie-chart-spin-31 {
+  to {
+    transform: rotate( 0.31turn); } }
+    .pie.pie-size-middle.pie-31:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-31 1s linear forwards; }
+@keyframes pie-chart-spin-32 {
+  to {
+    transform: rotate( 0.32turn); } }
+    .pie.pie-size-middle.pie-32:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-32 1s linear forwards; }
+@keyframes pie-chart-spin-33 {
+  to {
+    transform: rotate( 0.33turn); } }
+    .pie.pie-size-middle.pie-33:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-33 1s linear forwards; }
+@keyframes pie-chart-spin-34 {
+  to {
+    transform: rotate( 0.34turn); } }
+    .pie.pie-size-middle.pie-34:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-34 1s linear forwards; }
+@keyframes pie-chart-spin-35 {
+  to {
+    transform: rotate( 0.35turn); } }
+    .pie.pie-size-middle.pie-35:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-35 1s linear forwards; }
+@keyframes pie-chart-spin-36 {
+  to {
+    transform: rotate( 0.36turn); } }
+    .pie.pie-size-middle.pie-36:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-36 1s linear forwards; }
+@keyframes pie-chart-spin-37 {
+  to {
+    transform: rotate( 0.37turn); } }
+    .pie.pie-size-middle.pie-37:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-37 1s linear forwards; }
+@keyframes pie-chart-spin-38 {
+  to {
+    transform: rotate( 0.38turn); } }
+    .pie.pie-size-middle.pie-38:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-38 1s linear forwards; }
+@keyframes pie-chart-spin-39 {
+  to {
+    transform: rotate( 0.39turn); } }
+    .pie.pie-size-middle.pie-39:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-39 1s linear forwards; }
+@keyframes pie-chart-spin-40 {
+  to {
+    transform: rotate( 0.4turn); } }
+    .pie.pie-size-middle.pie-40:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-40 1s linear forwards; }
+@keyframes pie-chart-spin-41 {
+  to {
+    transform: rotate( 0.41turn); } }
+    .pie.pie-size-middle.pie-41:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-41 1s linear forwards; }
+@keyframes pie-chart-spin-42 {
+  to {
+    transform: rotate( 0.42turn); } }
+    .pie.pie-size-middle.pie-42:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-42 1s linear forwards; }
+@keyframes pie-chart-spin-43 {
+  to {
+    transform: rotate( 0.43turn); } }
+    .pie.pie-size-middle.pie-43:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-43 1s linear forwards; }
+@keyframes pie-chart-spin-44 {
+  to {
+    transform: rotate( 0.44turn); } }
+    .pie.pie-size-middle.pie-44:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-44 1s linear forwards; }
+@keyframes pie-chart-spin-45 {
+  to {
+    transform: rotate( 0.45turn); } }
+    .pie.pie-size-middle.pie-45:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-45 1s linear forwards; }
+@keyframes pie-chart-spin-46 {
+  to {
+    transform: rotate( 0.46turn); } }
+    .pie.pie-size-middle.pie-46:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-46 1s linear forwards; }
+@keyframes pie-chart-spin-47 {
+  to {
+    transform: rotate( 0.47turn); } }
+    .pie.pie-size-middle.pie-47:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-47 1s linear forwards; }
+@keyframes pie-chart-spin-48 {
+  to {
+    transform: rotate( 0.48turn); } }
+    .pie.pie-size-middle.pie-48:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-48 1s linear forwards; }
+@keyframes pie-chart-spin-49 {
+  to {
+    transform: rotate( 0.49turn); } }
+    .pie.pie-size-middle.pie-49:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-49 1s linear forwards; }
+@keyframes pie-chart-spin-50 {
+  to {
+    transform: rotate( 0.5turn); } }
+    .pie.pie-size-middle.pie-50:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-50 1s linear forwards; }
+@keyframes pie-chart-spin-51 {
+  to {
+    transform: rotate( 0.01turn); } }
+    .pie.pie-size-middle.pie-51:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.99s linear forwards, pie-chart-spin-change 0s linear 0.99s forwards, pie-chart-spin-51 0.01s linear 0.99s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-52 {
+  to {
+    transform: rotate( 0.02turn); } }
+    .pie.pie-size-middle.pie-52:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.98s linear forwards, pie-chart-spin-change 0s linear 0.98s forwards, pie-chart-spin-52 0.02s linear 0.98s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-53 {
+  to {
+    transform: rotate( 0.03turn); } }
+    .pie.pie-size-middle.pie-53:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.97s linear forwards, pie-chart-spin-change 0s linear 0.97s forwards, pie-chart-spin-53 0.03s linear 0.97s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-54 {
+  to {
+    transform: rotate( 0.04turn); } }
+    .pie.pie-size-middle.pie-54:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.96s linear forwards, pie-chart-spin-change 0s linear 0.96s forwards, pie-chart-spin-54 0.04s linear 0.96s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-55 {
+  to {
+    transform: rotate( 0.05turn); } }
+    .pie.pie-size-middle.pie-55:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.95s linear forwards, pie-chart-spin-change 0s linear 0.95s forwards, pie-chart-spin-55 0.05s linear 0.95s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-56 {
+  to {
+    transform: rotate( 0.06turn); } }
+    .pie.pie-size-middle.pie-56:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.94s linear forwards, pie-chart-spin-change 0s linear 0.94s forwards, pie-chart-spin-56 0.06s linear 0.94s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-57 {
+  to {
+    transform: rotate( 0.07turn); } }
+    .pie.pie-size-middle.pie-57:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.93s linear forwards, pie-chart-spin-change 0s linear 0.93s forwards, pie-chart-spin-57 0.07s linear 0.93s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-58 {
+  to {
+    transform: rotate( 0.08turn); } }
+    .pie.pie-size-middle.pie-58:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.92s linear forwards, pie-chart-spin-change 0s linear 0.92s forwards, pie-chart-spin-58 0.08s linear 0.92s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-59 {
+  to {
+    transform: rotate( 0.09turn); } }
+    .pie.pie-size-middle.pie-59:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.91s linear forwards, pie-chart-spin-change 0s linear 0.91s forwards, pie-chart-spin-59 0.09s linear 0.91s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-60 {
+  to {
+    transform: rotate( 0.1turn); } }
+    .pie.pie-size-middle.pie-60:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.9s linear forwards, pie-chart-spin-change 0s linear 0.9s forwards, pie-chart-spin-60 0.1s linear 0.9s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-61 {
+  to {
+    transform: rotate( 0.11turn); } }
+    .pie.pie-size-middle.pie-61:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.89s linear forwards, pie-chart-spin-change 0s linear 0.89s forwards, pie-chart-spin-61 0.11s linear 0.89s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-62 {
+  to {
+    transform: rotate( 0.12turn); } }
+    .pie.pie-size-middle.pie-62:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.88s linear forwards, pie-chart-spin-change 0s linear 0.88s forwards, pie-chart-spin-62 0.12s linear 0.88s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-63 {
+  to {
+    transform: rotate( 0.13turn); } }
+    .pie.pie-size-middle.pie-63:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.87s linear forwards, pie-chart-spin-change 0s linear 0.87s forwards, pie-chart-spin-63 0.13s linear 0.87s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-64 {
+  to {
+    transform: rotate( 0.14turn); } }
+    .pie.pie-size-middle.pie-64:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.86s linear forwards, pie-chart-spin-change 0s linear 0.86s forwards, pie-chart-spin-64 0.14s linear 0.86s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-65 {
+  to {
+    transform: rotate( 0.15turn); } }
+    .pie.pie-size-middle.pie-65:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.85s linear forwards, pie-chart-spin-change 0s linear 0.85s forwards, pie-chart-spin-65 0.15s linear 0.85s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-66 {
+  to {
+    transform: rotate( 0.16turn); } }
+    .pie.pie-size-middle.pie-66:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.84s linear forwards, pie-chart-spin-change 0s linear 0.84s forwards, pie-chart-spin-66 0.16s linear 0.84s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-67 {
+  to {
+    transform: rotate( 0.17turn); } }
+    .pie.pie-size-middle.pie-67:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.83s linear forwards, pie-chart-spin-change 0s linear 0.83s forwards, pie-chart-spin-67 0.17s linear 0.83s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-68 {
+  to {
+    transform: rotate( 0.18turn); } }
+    .pie.pie-size-middle.pie-68:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.82s linear forwards, pie-chart-spin-change 0s linear 0.82s forwards, pie-chart-spin-68 0.18s linear 0.82s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-69 {
+  to {
+    transform: rotate( 0.19turn); } }
+    .pie.pie-size-middle.pie-69:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.81s linear forwards, pie-chart-spin-change 0s linear 0.81s forwards, pie-chart-spin-69 0.19s linear 0.81s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-70 {
+  to {
+    transform: rotate( 0.2turn); } }
+    .pie.pie-size-middle.pie-70:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.8s linear forwards, pie-chart-spin-change 0s linear 0.8s forwards, pie-chart-spin-70 0.2s linear 0.8s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-71 {
+  to {
+    transform: rotate( 0.21turn); } }
+    .pie.pie-size-middle.pie-71:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.79s linear forwards, pie-chart-spin-change 0s linear 0.79s forwards, pie-chart-spin-71 0.21s linear 0.79s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-72 {
+  to {
+    transform: rotate( 0.22turn); } }
+    .pie.pie-size-middle.pie-72:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.78s linear forwards, pie-chart-spin-change 0s linear 0.78s forwards, pie-chart-spin-72 0.22s linear 0.78s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-73 {
+  to {
+    transform: rotate( 0.23turn); } }
+    .pie.pie-size-middle.pie-73:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.77s linear forwards, pie-chart-spin-change 0s linear 0.77s forwards, pie-chart-spin-73 0.23s linear 0.77s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-74 {
+  to {
+    transform: rotate( 0.24turn); } }
+    .pie.pie-size-middle.pie-74:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.76s linear forwards, pie-chart-spin-change 0s linear 0.76s forwards, pie-chart-spin-74 0.24s linear 0.76s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-75 {
+  to {
+    transform: rotate( 0.25turn); } }
+    .pie.pie-size-middle.pie-75:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.75s linear forwards, pie-chart-spin-change 0s linear 0.75s forwards, pie-chart-spin-75 0.25s linear 0.75s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-76 {
+  to {
+    transform: rotate( 0.26turn); } }
+    .pie.pie-size-middle.pie-76:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.74s linear forwards, pie-chart-spin-change 0s linear 0.74s forwards, pie-chart-spin-76 0.26s linear 0.74s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-77 {
+  to {
+    transform: rotate( 0.27turn); } }
+    .pie.pie-size-middle.pie-77:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.73s linear forwards, pie-chart-spin-change 0s linear 0.73s forwards, pie-chart-spin-77 0.27s linear 0.73s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-78 {
+  to {
+    transform: rotate( 0.28turn); } }
+    .pie.pie-size-middle.pie-78:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.72s linear forwards, pie-chart-spin-change 0s linear 0.72s forwards, pie-chart-spin-78 0.28s linear 0.72s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-79 {
+  to {
+    transform: rotate( 0.29turn); } }
+    .pie.pie-size-middle.pie-79:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.71s linear forwards, pie-chart-spin-change 0s linear 0.71s forwards, pie-chart-spin-79 0.29s linear 0.71s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-80 {
+  to {
+    transform: rotate( 0.3turn); } }
+    .pie.pie-size-middle.pie-80:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.7s linear forwards, pie-chart-spin-change 0s linear 0.7s forwards, pie-chart-spin-80 0.3s linear 0.7s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-81 {
+  to {
+    transform: rotate( 0.31turn); } }
+    .pie.pie-size-middle.pie-81:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.69s linear forwards, pie-chart-spin-change 0s linear 0.69s forwards, pie-chart-spin-81 0.31s linear 0.69s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-82 {
+  to {
+    transform: rotate( 0.32turn); } }
+    .pie.pie-size-middle.pie-82:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.68s linear forwards, pie-chart-spin-change 0s linear 0.68s forwards, pie-chart-spin-82 0.32s linear 0.68s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-83 {
+  to {
+    transform: rotate( 0.33turn); } }
+    .pie.pie-size-middle.pie-83:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.67s linear forwards, pie-chart-spin-change 0s linear 0.67s forwards, pie-chart-spin-83 0.33s linear 0.67s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-84 {
+  to {
+    transform: rotate( 0.34turn); } }
+    .pie.pie-size-middle.pie-84:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.66s linear forwards, pie-chart-spin-change 0s linear 0.66s forwards, pie-chart-spin-84 0.34s linear 0.66s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-85 {
+  to {
+    transform: rotate( 0.35turn); } }
+    .pie.pie-size-middle.pie-85:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.65s linear forwards, pie-chart-spin-change 0s linear 0.65s forwards, pie-chart-spin-85 0.35s linear 0.65s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-86 {
+  to {
+    transform: rotate( 0.36turn); } }
+    .pie.pie-size-middle.pie-86:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.64s linear forwards, pie-chart-spin-change 0s linear 0.64s forwards, pie-chart-spin-86 0.36s linear 0.64s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-87 {
+  to {
+    transform: rotate( 0.37turn); } }
+    .pie.pie-size-middle.pie-87:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.63s linear forwards, pie-chart-spin-change 0s linear 0.63s forwards, pie-chart-spin-87 0.37s linear 0.63s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-88 {
+  to {
+    transform: rotate( 0.38turn); } }
+    .pie.pie-size-middle.pie-88:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.62s linear forwards, pie-chart-spin-change 0s linear 0.62s forwards, pie-chart-spin-88 0.38s linear 0.62s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-89 {
+  to {
+    transform: rotate( 0.39turn); } }
+    .pie.pie-size-middle.pie-89:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.61s linear forwards, pie-chart-spin-change 0s linear 0.61s forwards, pie-chart-spin-89 0.39s linear 0.61s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-90 {
+  to {
+    transform: rotate( 0.4turn); } }
+    .pie.pie-size-middle.pie-90:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.6s linear forwards, pie-chart-spin-change 0s linear 0.6s forwards, pie-chart-spin-90 0.4s linear 0.6s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-91 {
+  to {
+    transform: rotate( 0.41turn); } }
+    .pie.pie-size-middle.pie-91:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.59s linear forwards, pie-chart-spin-change 0s linear 0.59s forwards, pie-chart-spin-91 0.41s linear 0.59s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-92 {
+  to {
+    transform: rotate( 0.42turn); } }
+    .pie.pie-size-middle.pie-92:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.58s linear forwards, pie-chart-spin-change 0s linear 0.58s forwards, pie-chart-spin-92 0.42s linear 0.58s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-93 {
+  to {
+    transform: rotate( 0.43turn); } }
+    .pie.pie-size-middle.pie-93:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.57s linear forwards, pie-chart-spin-change 0s linear 0.57s forwards, pie-chart-spin-93 0.43s linear 0.57s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-94 {
+  to {
+    transform: rotate( 0.44turn); } }
+    .pie.pie-size-middle.pie-94:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.56s linear forwards, pie-chart-spin-change 0s linear 0.56s forwards, pie-chart-spin-94 0.44s linear 0.56s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-95 {
+  to {
+    transform: rotate( 0.45turn); } }
+    .pie.pie-size-middle.pie-95:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.55s linear forwards, pie-chart-spin-change 0s linear 0.55s forwards, pie-chart-spin-95 0.45s linear 0.55s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-96 {
+  to {
+    transform: rotate( 0.46turn); } }
+    .pie.pie-size-middle.pie-96:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.54s linear forwards, pie-chart-spin-change 0s linear 0.54s forwards, pie-chart-spin-96 0.46s linear 0.54s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-97 {
+  to {
+    transform: rotate( 0.47turn); } }
+    .pie.pie-size-middle.pie-97:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.53s linear forwards, pie-chart-spin-change 0s linear 0.53s forwards, pie-chart-spin-97 0.47s linear 0.53s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-98 {
+  to {
+    transform: rotate( 0.48turn); } }
+    .pie.pie-size-middle.pie-98:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.52s linear forwards, pie-chart-spin-change 0s linear 0.52s forwards, pie-chart-spin-98 0.48s linear 0.52s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-99 {
+  to {
+    transform: rotate( 0.49turn); } }
+    .pie.pie-size-middle.pie-99:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.51s linear forwards, pie-chart-spin-change 0s linear 0.51s forwards, pie-chart-spin-99 0.49s linear 0.51s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-100 {
+  to {
+    transform: rotate( 0.5turn); } }
+    .pie.pie-size-middle.pie-100:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 128px;
+      transform-origin: 0 64px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.5s linear forwards, pie-chart-spin-change 0s linear 0.5s forwards, pie-chart-spin-100 0.5s linear 0.5s forwards;
+      transform: rotate(0turn); }
+  .pie.pie-size-big {
+    width: 256px;
+    height: 256px; }
+@keyframes pie-chart-spin-0 {
+  to {
+    transform: rotate( 0turn); } }
+    .pie.pie-size-big.pie-0:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-0 1s linear forwards; }
+@keyframes pie-chart-spin-1 {
+  to {
+    transform: rotate( 0.01turn); } }
+    .pie.pie-size-big.pie-1:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-1 1s linear forwards; }
+@keyframes pie-chart-spin-2 {
+  to {
+    transform: rotate( 0.02turn); } }
+    .pie.pie-size-big.pie-2:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-2 1s linear forwards; }
+@keyframes pie-chart-spin-3 {
+  to {
+    transform: rotate( 0.03turn); } }
+    .pie.pie-size-big.pie-3:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-3 1s linear forwards; }
+@keyframes pie-chart-spin-4 {
+  to {
+    transform: rotate( 0.04turn); } }
+    .pie.pie-size-big.pie-4:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-4 1s linear forwards; }
+@keyframes pie-chart-spin-5 {
+  to {
+    transform: rotate( 0.05turn); } }
+    .pie.pie-size-big.pie-5:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-5 1s linear forwards; }
+@keyframes pie-chart-spin-6 {
+  to {
+    transform: rotate( 0.06turn); } }
+    .pie.pie-size-big.pie-6:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-6 1s linear forwards; }
+@keyframes pie-chart-spin-7 {
+  to {
+    transform: rotate( 0.07turn); } }
+    .pie.pie-size-big.pie-7:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-7 1s linear forwards; }
+@keyframes pie-chart-spin-8 {
+  to {
+    transform: rotate( 0.08turn); } }
+    .pie.pie-size-big.pie-8:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-8 1s linear forwards; }
+@keyframes pie-chart-spin-9 {
+  to {
+    transform: rotate( 0.09turn); } }
+    .pie.pie-size-big.pie-9:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-9 1s linear forwards; }
+@keyframes pie-chart-spin-10 {
+  to {
+    transform: rotate( 0.1turn); } }
+    .pie.pie-size-big.pie-10:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-10 1s linear forwards; }
+@keyframes pie-chart-spin-11 {
+  to {
+    transform: rotate( 0.11turn); } }
+    .pie.pie-size-big.pie-11:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-11 1s linear forwards; }
+@keyframes pie-chart-spin-12 {
+  to {
+    transform: rotate( 0.12turn); } }
+    .pie.pie-size-big.pie-12:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-12 1s linear forwards; }
+@keyframes pie-chart-spin-13 {
+  to {
+    transform: rotate( 0.13turn); } }
+    .pie.pie-size-big.pie-13:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-13 1s linear forwards; }
+@keyframes pie-chart-spin-14 {
+  to {
+    transform: rotate( 0.14turn); } }
+    .pie.pie-size-big.pie-14:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-14 1s linear forwards; }
+@keyframes pie-chart-spin-15 {
+  to {
+    transform: rotate( 0.15turn); } }
+    .pie.pie-size-big.pie-15:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-15 1s linear forwards; }
+@keyframes pie-chart-spin-16 {
+  to {
+    transform: rotate( 0.16turn); } }
+    .pie.pie-size-big.pie-16:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-16 1s linear forwards; }
+@keyframes pie-chart-spin-17 {
+  to {
+    transform: rotate( 0.17turn); } }
+    .pie.pie-size-big.pie-17:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-17 1s linear forwards; }
+@keyframes pie-chart-spin-18 {
+  to {
+    transform: rotate( 0.18turn); } }
+    .pie.pie-size-big.pie-18:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-18 1s linear forwards; }
+@keyframes pie-chart-spin-19 {
+  to {
+    transform: rotate( 0.19turn); } }
+    .pie.pie-size-big.pie-19:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-19 1s linear forwards; }
+@keyframes pie-chart-spin-20 {
+  to {
+    transform: rotate( 0.2turn); } }
+    .pie.pie-size-big.pie-20:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-20 1s linear forwards; }
+@keyframes pie-chart-spin-21 {
+  to {
+    transform: rotate( 0.21turn); } }
+    .pie.pie-size-big.pie-21:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-21 1s linear forwards; }
+@keyframes pie-chart-spin-22 {
+  to {
+    transform: rotate( 0.22turn); } }
+    .pie.pie-size-big.pie-22:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-22 1s linear forwards; }
+@keyframes pie-chart-spin-23 {
+  to {
+    transform: rotate( 0.23turn); } }
+    .pie.pie-size-big.pie-23:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-23 1s linear forwards; }
+@keyframes pie-chart-spin-24 {
+  to {
+    transform: rotate( 0.24turn); } }
+    .pie.pie-size-big.pie-24:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-24 1s linear forwards; }
+@keyframes pie-chart-spin-25 {
+  to {
+    transform: rotate( 0.25turn); } }
+    .pie.pie-size-big.pie-25:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-25 1s linear forwards; }
+@keyframes pie-chart-spin-26 {
+  to {
+    transform: rotate( 0.26turn); } }
+    .pie.pie-size-big.pie-26:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-26 1s linear forwards; }
+@keyframes pie-chart-spin-27 {
+  to {
+    transform: rotate( 0.27turn); } }
+    .pie.pie-size-big.pie-27:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-27 1s linear forwards; }
+@keyframes pie-chart-spin-28 {
+  to {
+    transform: rotate( 0.28turn); } }
+    .pie.pie-size-big.pie-28:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-28 1s linear forwards; }
+@keyframes pie-chart-spin-29 {
+  to {
+    transform: rotate( 0.29turn); } }
+    .pie.pie-size-big.pie-29:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-29 1s linear forwards; }
+@keyframes pie-chart-spin-30 {
+  to {
+    transform: rotate( 0.3turn); } }
+    .pie.pie-size-big.pie-30:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-30 1s linear forwards; }
+@keyframes pie-chart-spin-31 {
+  to {
+    transform: rotate( 0.31turn); } }
+    .pie.pie-size-big.pie-31:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-31 1s linear forwards; }
+@keyframes pie-chart-spin-32 {
+  to {
+    transform: rotate( 0.32turn); } }
+    .pie.pie-size-big.pie-32:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-32 1s linear forwards; }
+@keyframes pie-chart-spin-33 {
+  to {
+    transform: rotate( 0.33turn); } }
+    .pie.pie-size-big.pie-33:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-33 1s linear forwards; }
+@keyframes pie-chart-spin-34 {
+  to {
+    transform: rotate( 0.34turn); } }
+    .pie.pie-size-big.pie-34:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-34 1s linear forwards; }
+@keyframes pie-chart-spin-35 {
+  to {
+    transform: rotate( 0.35turn); } }
+    .pie.pie-size-big.pie-35:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-35 1s linear forwards; }
+@keyframes pie-chart-spin-36 {
+  to {
+    transform: rotate( 0.36turn); } }
+    .pie.pie-size-big.pie-36:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-36 1s linear forwards; }
+@keyframes pie-chart-spin-37 {
+  to {
+    transform: rotate( 0.37turn); } }
+    .pie.pie-size-big.pie-37:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-37 1s linear forwards; }
+@keyframes pie-chart-spin-38 {
+  to {
+    transform: rotate( 0.38turn); } }
+    .pie.pie-size-big.pie-38:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-38 1s linear forwards; }
+@keyframes pie-chart-spin-39 {
+  to {
+    transform: rotate( 0.39turn); } }
+    .pie.pie-size-big.pie-39:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-39 1s linear forwards; }
+@keyframes pie-chart-spin-40 {
+  to {
+    transform: rotate( 0.4turn); } }
+    .pie.pie-size-big.pie-40:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-40 1s linear forwards; }
+@keyframes pie-chart-spin-41 {
+  to {
+    transform: rotate( 0.41turn); } }
+    .pie.pie-size-big.pie-41:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-41 1s linear forwards; }
+@keyframes pie-chart-spin-42 {
+  to {
+    transform: rotate( 0.42turn); } }
+    .pie.pie-size-big.pie-42:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-42 1s linear forwards; }
+@keyframes pie-chart-spin-43 {
+  to {
+    transform: rotate( 0.43turn); } }
+    .pie.pie-size-big.pie-43:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-43 1s linear forwards; }
+@keyframes pie-chart-spin-44 {
+  to {
+    transform: rotate( 0.44turn); } }
+    .pie.pie-size-big.pie-44:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-44 1s linear forwards; }
+@keyframes pie-chart-spin-45 {
+  to {
+    transform: rotate( 0.45turn); } }
+    .pie.pie-size-big.pie-45:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-45 1s linear forwards; }
+@keyframes pie-chart-spin-46 {
+  to {
+    transform: rotate( 0.46turn); } }
+    .pie.pie-size-big.pie-46:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-46 1s linear forwards; }
+@keyframes pie-chart-spin-47 {
+  to {
+    transform: rotate( 0.47turn); } }
+    .pie.pie-size-big.pie-47:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-47 1s linear forwards; }
+@keyframes pie-chart-spin-48 {
+  to {
+    transform: rotate( 0.48turn); } }
+    .pie.pie-size-big.pie-48:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-48 1s linear forwards; }
+@keyframes pie-chart-spin-49 {
+  to {
+    transform: rotate( 0.49turn); } }
+    .pie.pie-size-big.pie-49:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-49 1s linear forwards; }
+@keyframes pie-chart-spin-50 {
+  to {
+    transform: rotate( 0.5turn); } }
+    .pie.pie-size-big.pie-50:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-50 1s linear forwards; }
+@keyframes pie-chart-spin-51 {
+  to {
+    transform: rotate( 0.01turn); } }
+    .pie.pie-size-big.pie-51:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.99s linear forwards, pie-chart-spin-change 0s linear 0.99s forwards, pie-chart-spin-51 0.01s linear 0.99s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-52 {
+  to {
+    transform: rotate( 0.02turn); } }
+    .pie.pie-size-big.pie-52:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.98s linear forwards, pie-chart-spin-change 0s linear 0.98s forwards, pie-chart-spin-52 0.02s linear 0.98s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-53 {
+  to {
+    transform: rotate( 0.03turn); } }
+    .pie.pie-size-big.pie-53:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.97s linear forwards, pie-chart-spin-change 0s linear 0.97s forwards, pie-chart-spin-53 0.03s linear 0.97s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-54 {
+  to {
+    transform: rotate( 0.04turn); } }
+    .pie.pie-size-big.pie-54:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.96s linear forwards, pie-chart-spin-change 0s linear 0.96s forwards, pie-chart-spin-54 0.04s linear 0.96s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-55 {
+  to {
+    transform: rotate( 0.05turn); } }
+    .pie.pie-size-big.pie-55:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.95s linear forwards, pie-chart-spin-change 0s linear 0.95s forwards, pie-chart-spin-55 0.05s linear 0.95s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-56 {
+  to {
+    transform: rotate( 0.06turn); } }
+    .pie.pie-size-big.pie-56:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.94s linear forwards, pie-chart-spin-change 0s linear 0.94s forwards, pie-chart-spin-56 0.06s linear 0.94s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-57 {
+  to {
+    transform: rotate( 0.07turn); } }
+    .pie.pie-size-big.pie-57:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.93s linear forwards, pie-chart-spin-change 0s linear 0.93s forwards, pie-chart-spin-57 0.07s linear 0.93s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-58 {
+  to {
+    transform: rotate( 0.08turn); } }
+    .pie.pie-size-big.pie-58:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.92s linear forwards, pie-chart-spin-change 0s linear 0.92s forwards, pie-chart-spin-58 0.08s linear 0.92s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-59 {
+  to {
+    transform: rotate( 0.09turn); } }
+    .pie.pie-size-big.pie-59:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.91s linear forwards, pie-chart-spin-change 0s linear 0.91s forwards, pie-chart-spin-59 0.09s linear 0.91s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-60 {
+  to {
+    transform: rotate( 0.1turn); } }
+    .pie.pie-size-big.pie-60:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.9s linear forwards, pie-chart-spin-change 0s linear 0.9s forwards, pie-chart-spin-60 0.1s linear 0.9s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-61 {
+  to {
+    transform: rotate( 0.11turn); } }
+    .pie.pie-size-big.pie-61:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.89s linear forwards, pie-chart-spin-change 0s linear 0.89s forwards, pie-chart-spin-61 0.11s linear 0.89s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-62 {
+  to {
+    transform: rotate( 0.12turn); } }
+    .pie.pie-size-big.pie-62:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.88s linear forwards, pie-chart-spin-change 0s linear 0.88s forwards, pie-chart-spin-62 0.12s linear 0.88s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-63 {
+  to {
+    transform: rotate( 0.13turn); } }
+    .pie.pie-size-big.pie-63:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.87s linear forwards, pie-chart-spin-change 0s linear 0.87s forwards, pie-chart-spin-63 0.13s linear 0.87s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-64 {
+  to {
+    transform: rotate( 0.14turn); } }
+    .pie.pie-size-big.pie-64:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.86s linear forwards, pie-chart-spin-change 0s linear 0.86s forwards, pie-chart-spin-64 0.14s linear 0.86s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-65 {
+  to {
+    transform: rotate( 0.15turn); } }
+    .pie.pie-size-big.pie-65:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.85s linear forwards, pie-chart-spin-change 0s linear 0.85s forwards, pie-chart-spin-65 0.15s linear 0.85s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-66 {
+  to {
+    transform: rotate( 0.16turn); } }
+    .pie.pie-size-big.pie-66:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.84s linear forwards, pie-chart-spin-change 0s linear 0.84s forwards, pie-chart-spin-66 0.16s linear 0.84s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-67 {
+  to {
+    transform: rotate( 0.17turn); } }
+    .pie.pie-size-big.pie-67:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.83s linear forwards, pie-chart-spin-change 0s linear 0.83s forwards, pie-chart-spin-67 0.17s linear 0.83s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-68 {
+  to {
+    transform: rotate( 0.18turn); } }
+    .pie.pie-size-big.pie-68:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.82s linear forwards, pie-chart-spin-change 0s linear 0.82s forwards, pie-chart-spin-68 0.18s linear 0.82s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-69 {
+  to {
+    transform: rotate( 0.19turn); } }
+    .pie.pie-size-big.pie-69:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.81s linear forwards, pie-chart-spin-change 0s linear 0.81s forwards, pie-chart-spin-69 0.19s linear 0.81s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-70 {
+  to {
+    transform: rotate( 0.2turn); } }
+    .pie.pie-size-big.pie-70:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.8s linear forwards, pie-chart-spin-change 0s linear 0.8s forwards, pie-chart-spin-70 0.2s linear 0.8s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-71 {
+  to {
+    transform: rotate( 0.21turn); } }
+    .pie.pie-size-big.pie-71:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.79s linear forwards, pie-chart-spin-change 0s linear 0.79s forwards, pie-chart-spin-71 0.21s linear 0.79s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-72 {
+  to {
+    transform: rotate( 0.22turn); } }
+    .pie.pie-size-big.pie-72:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.78s linear forwards, pie-chart-spin-change 0s linear 0.78s forwards, pie-chart-spin-72 0.22s linear 0.78s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-73 {
+  to {
+    transform: rotate( 0.23turn); } }
+    .pie.pie-size-big.pie-73:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.77s linear forwards, pie-chart-spin-change 0s linear 0.77s forwards, pie-chart-spin-73 0.23s linear 0.77s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-74 {
+  to {
+    transform: rotate( 0.24turn); } }
+    .pie.pie-size-big.pie-74:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.76s linear forwards, pie-chart-spin-change 0s linear 0.76s forwards, pie-chart-spin-74 0.24s linear 0.76s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-75 {
+  to {
+    transform: rotate( 0.25turn); } }
+    .pie.pie-size-big.pie-75:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.75s linear forwards, pie-chart-spin-change 0s linear 0.75s forwards, pie-chart-spin-75 0.25s linear 0.75s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-76 {
+  to {
+    transform: rotate( 0.26turn); } }
+    .pie.pie-size-big.pie-76:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.74s linear forwards, pie-chart-spin-change 0s linear 0.74s forwards, pie-chart-spin-76 0.26s linear 0.74s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-77 {
+  to {
+    transform: rotate( 0.27turn); } }
+    .pie.pie-size-big.pie-77:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.73s linear forwards, pie-chart-spin-change 0s linear 0.73s forwards, pie-chart-spin-77 0.27s linear 0.73s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-78 {
+  to {
+    transform: rotate( 0.28turn); } }
+    .pie.pie-size-big.pie-78:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.72s linear forwards, pie-chart-spin-change 0s linear 0.72s forwards, pie-chart-spin-78 0.28s linear 0.72s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-79 {
+  to {
+    transform: rotate( 0.29turn); } }
+    .pie.pie-size-big.pie-79:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.71s linear forwards, pie-chart-spin-change 0s linear 0.71s forwards, pie-chart-spin-79 0.29s linear 0.71s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-80 {
+  to {
+    transform: rotate( 0.3turn); } }
+    .pie.pie-size-big.pie-80:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.7s linear forwards, pie-chart-spin-change 0s linear 0.7s forwards, pie-chart-spin-80 0.3s linear 0.7s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-81 {
+  to {
+    transform: rotate( 0.31turn); } }
+    .pie.pie-size-big.pie-81:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.69s linear forwards, pie-chart-spin-change 0s linear 0.69s forwards, pie-chart-spin-81 0.31s linear 0.69s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-82 {
+  to {
+    transform: rotate( 0.32turn); } }
+    .pie.pie-size-big.pie-82:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.68s linear forwards, pie-chart-spin-change 0s linear 0.68s forwards, pie-chart-spin-82 0.32s linear 0.68s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-83 {
+  to {
+    transform: rotate( 0.33turn); } }
+    .pie.pie-size-big.pie-83:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.67s linear forwards, pie-chart-spin-change 0s linear 0.67s forwards, pie-chart-spin-83 0.33s linear 0.67s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-84 {
+  to {
+    transform: rotate( 0.34turn); } }
+    .pie.pie-size-big.pie-84:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.66s linear forwards, pie-chart-spin-change 0s linear 0.66s forwards, pie-chart-spin-84 0.34s linear 0.66s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-85 {
+  to {
+    transform: rotate( 0.35turn); } }
+    .pie.pie-size-big.pie-85:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.65s linear forwards, pie-chart-spin-change 0s linear 0.65s forwards, pie-chart-spin-85 0.35s linear 0.65s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-86 {
+  to {
+    transform: rotate( 0.36turn); } }
+    .pie.pie-size-big.pie-86:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.64s linear forwards, pie-chart-spin-change 0s linear 0.64s forwards, pie-chart-spin-86 0.36s linear 0.64s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-87 {
+  to {
+    transform: rotate( 0.37turn); } }
+    .pie.pie-size-big.pie-87:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.63s linear forwards, pie-chart-spin-change 0s linear 0.63s forwards, pie-chart-spin-87 0.37s linear 0.63s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-88 {
+  to {
+    transform: rotate( 0.38turn); } }
+    .pie.pie-size-big.pie-88:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.62s linear forwards, pie-chart-spin-change 0s linear 0.62s forwards, pie-chart-spin-88 0.38s linear 0.62s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-89 {
+  to {
+    transform: rotate( 0.39turn); } }
+    .pie.pie-size-big.pie-89:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.61s linear forwards, pie-chart-spin-change 0s linear 0.61s forwards, pie-chart-spin-89 0.39s linear 0.61s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-90 {
+  to {
+    transform: rotate( 0.4turn); } }
+    .pie.pie-size-big.pie-90:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.6s linear forwards, pie-chart-spin-change 0s linear 0.6s forwards, pie-chart-spin-90 0.4s linear 0.6s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-91 {
+  to {
+    transform: rotate( 0.41turn); } }
+    .pie.pie-size-big.pie-91:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.59s linear forwards, pie-chart-spin-change 0s linear 0.59s forwards, pie-chart-spin-91 0.41s linear 0.59s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-92 {
+  to {
+    transform: rotate( 0.42turn); } }
+    .pie.pie-size-big.pie-92:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.58s linear forwards, pie-chart-spin-change 0s linear 0.58s forwards, pie-chart-spin-92 0.42s linear 0.58s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-93 {
+  to {
+    transform: rotate( 0.43turn); } }
+    .pie.pie-size-big.pie-93:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.57s linear forwards, pie-chart-spin-change 0s linear 0.57s forwards, pie-chart-spin-93 0.43s linear 0.57s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-94 {
+  to {
+    transform: rotate( 0.44turn); } }
+    .pie.pie-size-big.pie-94:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.56s linear forwards, pie-chart-spin-change 0s linear 0.56s forwards, pie-chart-spin-94 0.44s linear 0.56s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-95 {
+  to {
+    transform: rotate( 0.45turn); } }
+    .pie.pie-size-big.pie-95:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.55s linear forwards, pie-chart-spin-change 0s linear 0.55s forwards, pie-chart-spin-95 0.45s linear 0.55s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-96 {
+  to {
+    transform: rotate( 0.46turn); } }
+    .pie.pie-size-big.pie-96:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.54s linear forwards, pie-chart-spin-change 0s linear 0.54s forwards, pie-chart-spin-96 0.46s linear 0.54s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-97 {
+  to {
+    transform: rotate( 0.47turn); } }
+    .pie.pie-size-big.pie-97:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.53s linear forwards, pie-chart-spin-change 0s linear 0.53s forwards, pie-chart-spin-97 0.47s linear 0.53s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-98 {
+  to {
+    transform: rotate( 0.48turn); } }
+    .pie.pie-size-big.pie-98:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.52s linear forwards, pie-chart-spin-change 0s linear 0.52s forwards, pie-chart-spin-98 0.48s linear 0.52s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-99 {
+  to {
+    transform: rotate( 0.49turn); } }
+    .pie.pie-size-big.pie-99:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.51s linear forwards, pie-chart-spin-change 0s linear 0.51s forwards, pie-chart-spin-99 0.49s linear 0.51s forwards;
+      transform: rotate(0turn); }
+@keyframes pie-chart-spin-100 {
+  to {
+    transform: rotate( 0.5turn); } }
+    .pie.pie-size-big.pie-100:before {
+      position: absolute;
+      right: 0;
+      display: block;
+      content: "";
+      width: 128px;
+      height: 256px;
+      transform-origin: 0 128px;
+      background-color: #E8E2D6;
+      animation: pie-chart-spin-init 0.5s linear forwards, pie-chart-spin-change 0s linear 0.5s forwards, pie-chart-spin-100 0.5s linear 0.5s forwards;
+      transform: rotate(0turn); }
+
+/*# sourceMappingURL=csspie.css.map */

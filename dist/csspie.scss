@@ -1,0 +1,104 @@
+$pre: pie;
+$size-base: 64;
+$size-small-rate: 1;
+$size-middle-rate: 2;
+$size-big-rate: 4;
+$color: #B4A078;
+$background-color: #E8E2D6;
+$animate-time: 1;
+
+@mixin before-init($size-rate){
+  position: absolute;
+  right: 0;
+  display: block;
+  content: "";
+  width: #{$size-base * $size-rate / 2}px;
+  height: #{$size-base * $size-rate}px;
+  transform-origin: 0 #{$size-base * $size-rate / 2}px;
+}
+
+@mixin pie-value-init($i, $size-rate) {
+  @if ($i <= 50) {
+    @keyframes pie-chart-spin-#{$i} {
+      to {
+        transform: #{"rotate("$i/100}turn#{")"};
+      }
+    }
+
+    &.#{$pre}-#{$i}{
+      &:before{
+        @include before-init($size-rate);
+        background-color: $background-color;
+        animation: pie-chart-spin-#{$i} #{$animate-time}s linear forwards;
+      }
+    }
+  }
+  @else{
+    @keyframes pie-chart-spin-#{$i} {
+      to {
+        transform: #{"rotate("($i - 50)/100}turn#{")"};
+      }
+    }
+
+    $sec: (150 - $i) / 100;
+
+    &.#{$pre}-#{$i} {
+      &:before {
+        @include before-init($size-rate);
+        background-color: $background-color;
+        animation: pie-chart-spin-init #{$sec * $animate-time}s linear forwards,
+          pie-chart-spin-change 0s linear #{$sec * $animate-time}s forwards,
+          pie-chart-spin-#{$i} #{(1 - $sec) * $animate-time}s linear #{$sec * $animate-time}s forwards;
+        transform: rotate(0turn);
+      }
+    }
+  }
+}
+
+@keyframes pie-chart-spin-init {
+  to {
+    transform: rotate(.5turn);
+  }
+}
+
+@keyframes pie-chart-spin-change {
+  to {
+    background-color: $color;
+    transform: rotate(0turn);
+  }
+}
+
+.#{$pre}{
+  position: relative;
+  display: inline-block;
+  width: #{$size-base * $size-small-rate}px;
+  height: #{$size-base * $size-small-rate}px;
+  border-radius: 50%;
+  background-color: $background-color;
+  background-image: linear-gradient(to right, transparent 50%, $color 50%);
+  overflow: hidden;
+
+  &.#{$pre}-size-small{
+    width: #{$size-base * $size-small-rate}px;
+    height: #{$size-base * $size-small-rate}px;
+    @for $i from 0 through 100 {
+      @include pie-value-init($i, $size-small-rate);
+    }
+  }
+
+  &.#{$pre}-size-middle{
+    width: #{$size-base * $size-middle-rate}px;
+    height: #{$size-base * $size-middle-rate}px;
+    @for $i from 0 through 100 {
+      @include pie-value-init($i, $size-middle-rate);
+    }
+  }
+
+  &.#{$pre}-size-big{
+    width: #{$size-base * $size-big-rate}px;
+    height: #{$size-base * $size-big-rate}px;
+    @for $i from 0 through 100 {
+      @include pie-value-init($i, $size-big-rate);
+    }
+  }
+}
